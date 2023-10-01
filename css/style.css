@@ -226,6 +226,7 @@ span.psw {
     color: #201e1f;
     border-radius: 1rem 1rem 7rem 7rem;
     filter: drop-shadow(1px 1px 1px);
+    margin-bottom: 10px;
 }
 
 .cardeventos h3 {
