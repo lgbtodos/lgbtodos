@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #e9791a;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #3e4095;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+
+.informacoes {
+    background-color: #636061;
+    color: #eee;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#contatos {
+    display: flex;
+    margin-left: 6rem;
+}
+
+#contatos .contato {
+    padding-left: 60px;
+}
+
+#socialmedia {
+    display: flex;
+    margin-right: 10rem;
+}
+
+#socialmedia .redesocial {
+    padding-right: 60px;
+}
+
+.navegacao {
+    background-color: #201e1f;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacao img {
+    padding-left: 50px;
+    width: 200px;
+}
+
+.navegacao ul {
+    font-size: 26px;
+    margin-right: 2rem;
+    display: flex;
+}
+
+.hamburguer {
+    display: none;
+}
+
+.navegacao ul li {
+        display: flex;
+}
+
+.navegacao ul li a {
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.navegacao ul li a:hover {
+    background: linear-gradient(to right, #ed3237, #ff913c, #fff110, #03a85a, #404091, #a9518b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navegacao{
+    filter: drop-shadow(0px 7px 0px);
+    color: #3e4095;
+}
+
+.menu-btn img{
+    cursor: pointer;
+    width: 100px;
+    display: none;
+}
+
+.name { grid-area: name;}
+.eventos-proximos { grid-area: proximos;}
+.eventos-passados { grid-area: passados;}
+
+.menu-grid-events {
+    display: grid;
+    grid-template-areas: 'name name name name name name'
+                        'proximos proximos proximos proximos proximos proximos'
+                        'passados passados passados passados passados passados';
+    background-color: #eee;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.menu-grid-events h1 {
+    background-color: #3e4095;
+    color: #eee;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 0rem 0rem 5rem 5rem;
+}
+
+.eventos-eventos {
+    display: flex;
+    /* overflow-x: scroll;
+    width: 1200px; */
+}
+
+.eventos-eventos img {
+    align-self: baseline;
+}
+
+.cardeventos-eventos {
+    margin-left: 10px;
+    border: 5px solid #eee;
+    max-width: 20%;
+    padding: 10px;
+    max-height: 100%;
+    text-align: center;
+    background-color: #201e1f;
+    color: #201e1f;
+    border-radius: 1rem 1rem 7rem 7rem;
+    filter: drop-shadow(1px 1px 1px);
+    margin-bottom: 10px;
+}
+
+.cardeventos-eventos h3 {
+    margin-top: 10px;
+    margin: 5px;
+    background-color: #3e4095;
+    border-radius: 2rem;
+    color: #eee;
+    padding: 5px;
+    font-size: 19px;
+}
+
+.cardeventos-eventos img {
+    border-radius: 1rem;
+    color: #eee;
+    filter: drop-shadow(0px 0px 4px);
+}
+
+.cardeventos-eventos h6 {
+    margin-top: 6px;
+    color: #eee;
+}
+
+
+.cardeventos-eventos iframe {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 1rem;
+    margin-bottom: 50px;
+}
+
+.eventos-proximos {
+    border: 10px solid #00a85a;
+    margin: 10px;
+    border-radius: 5rem;
+    background-color: #076338;
+}
+
+.eventos-proximos h2 {
+    background-color: #00a85a;
+    color: #eee;
+    margin-top: -5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5px;
+    border-radius: 5rem;
+}
+
+.eventos-passados {
+    border: 10px solid #ec3237;
+    margin: 10px;
+    border-radius: 5rem;
+    background-color: #861c1f;
+}
+
+.eventos-passados h2 {
+    background-color: #ec3237;
+    color: #eee;
+    margin-top: -5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5px;
+    border-radius: 5rem;
+}

@@ -1,12 +1,4 @@
-var ul = document.querySelector('nav ul')
-var menuBtn = document.querySelector('.menu-btn img')
-var alter = document.querySelector('.navegacao ul')
+var hamburguer = document.querySelector('.hamburguer')
+var nav = document.querySelector('.navegacao')
 
-function menuShow() {
-    if (ul.classList.contains('open')) {
-        ul.classList.remove('open');
-    } else {
-        ul.classList.add('open')
-        
-    }
-}
+hamburguer.addEventListener('click', () => nav.classList.toggle('active'))
