@@ -125,6 +125,20 @@ a {
     width: 1200px; */
 }
 
+/* .scroll::-webkit-scrollbar {
+    width: 10px;
+}
+  
+.scroll::-webkit-scrollbar-track {
+    background: #201e1f;
+    border-radius: 2rem;
+}
+  
+.scroll::-webkit-scrollbar-thumb {
+    background: #04AA6D ;
+    border-radius: 10rem 10rem 10rem 10rem;
+} */
+
 .eventos-eventos img {
     align-self: baseline;
 }
