@@ -209,7 +209,6 @@ span.psw {
 
 .scroll {
     display: flex;
-    flex-direction: row;
     overflow-x: scroll;
     width: 100%;
     border-radius: 2rem;
@@ -254,7 +253,7 @@ span.psw {
     color: #eee;
 }
 
-/* .scroll::-webkit-scrollbar {
+.scroll::-webkit-scrollbar {
     width: 10px;
 }
   
@@ -266,7 +265,7 @@ span.psw {
 .scroll::-webkit-scrollbar-thumb {
     background: #04AA6D ;
     border-radius: 10rem 10rem 10rem 10rem;
-} */
+}
 
 /* Noticias */
 
