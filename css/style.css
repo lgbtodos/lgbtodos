@@ -43,7 +43,7 @@ a {
 }
 
 #contatos .contato {
-    padding-left: 60px;
+    padding-left: 190px;
 }
 
 #socialmedia {
@@ -127,6 +127,13 @@ a {
     display: block;
     overflow-y: scroll;
     height: 650px;
+    background-color: #292929;
+    border-radius: 1rem;
+    margin-top: 15%;
+}
+
+.feed {
+    background-color: #a2a2a2;
 }
 
 .feed h2 {
@@ -150,6 +157,11 @@ a {
 .ultimasfotos::-webkit-scrollbar-thumb {
     background: #04AA6D ;
     border-radius: 10rem 10rem 10rem 10rem;
+}
+
+.login {
+    background-color: #292929;
+    color: #eee;
 }
 
 input[type=text], input[type=password] {
@@ -191,18 +203,19 @@ button:hover {
 
 
 img.avatar {
-    width: 10%;
+    width: 35px;
 }
 
 
 .container {
     align-items: baseline;
     border-radius: 6rem;
+    width: max-content;
 }
-
 
 span.psw {
     float: right;
+    margin-left: 10px;
     padding-top: 10px;
     padding-right: 16px;
 }
@@ -214,6 +227,13 @@ span.psw {
     border-radius: 2rem;
 }
 
+#icon {
+    position: absolute;
+}
+
+.eventos {
+    background-color: #a2a2a2;
+}
 
 .eventos img {
     align-self: baseline;
@@ -221,9 +241,9 @@ span.psw {
 }
 
 .cardeventos {
-    margin-left: 10px;
+    margin-left: 50px;
     border: 5px solid #eee;
-    max-width: 25%;
+    max-width: 20%;
     max-height: 100%;
     text-align: center;
     background-color: #201e1f;
@@ -231,6 +251,11 @@ span.psw {
     border-radius: 1rem 1rem 7rem 7rem;
     filter: drop-shadow(1px 1px 1px);
     margin-bottom: 10px;
+}
+
+.icon-date{
+    width: 35px;
+
 }
 
 .cardeventos h3 {
@@ -244,7 +269,6 @@ span.psw {
 .cardeventos img {
     border-radius: 1rem;
     color: #eee;
-    filter: drop-shadow(0px 0px 4px);
 }
 
 .cardeventos h6 {
@@ -269,7 +293,8 @@ span.psw {
 /* Noticias */
 
 .noticias {
-    max-width: 1000px;
+    max-width: max-content;
+    background-color: #a2a2a2;
 }
 
 .noticiapostada {
@@ -400,4 +425,36 @@ span.psw {
 
 .close:hover {
     background: #00d9ff;
+}
+
+#sfcenfwrrguruuk1c4945chpuw4u31yl52p {
+    background-color: #636061;
+    border-radius: 5rem;
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* Dias Especiais */
+.teia-de-aranha {
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.5;
+    width: 100%;
+}
+.morcego {
+    position: absolute;
+    width: 10%;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1;
+}
+.caveira {
+    position: absolute;
+    width: 10%;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1;
 }

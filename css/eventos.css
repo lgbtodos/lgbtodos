@@ -105,8 +105,8 @@ a {
     display: grid;
     grid-template-areas: 'name name name name name name'
                         'proximos proximos proximos proximos proximos proximos'
-                        'passados passados passados passados passados passados';
-    background-color: #eee;
+                        'proximos proximos proximos proximos proximos proximos';
+    background-color: #a2a2a2;
     margin-top: 5px;
     text-align: center;
 }
@@ -121,23 +121,29 @@ a {
 
 .eventos-eventos {
     display: flex;
-    /* overflow-x: scroll;
-    width: 1200px; */
 }
 
-/* .scroll::-webkit-scrollbar {
+.eventos-proximos {
+    overflow-x: scroll;
+}
+
+.eventos-proximos::-webkit-scrollbar {
     width: 10px;
 }
   
-.scroll::-webkit-scrollbar-track {
+.eventos-proximos::-webkit-scrollbar-track {
     background: #201e1f;
     border-radius: 2rem;
 }
   
-.scroll::-webkit-scrollbar-thumb {
+.eventos-proximos::-webkit-scrollbar-thumb {
     background: #04AA6D ;
     border-radius: 10rem 10rem 10rem 10rem;
-} */
+}
+
+.eventos-eventos {
+    max-width: max-content;
+}
 
 .eventos-eventos img {
     align-self: baseline;
@@ -145,14 +151,14 @@ a {
 
 .cardeventos-eventos {
     margin-left: 10px;
-    border: 5px solid #eee;
-    max-width: 20%;
-    padding: 10px;
+    margin: 10px;
+    border: 2px solid #eee;
+    max-width: 15%;
     max-height: 100%;
     text-align: center;
     background-color: #201e1f;
     color: #201e1f;
-    border-radius: 1rem 1rem 7rem 7rem;
+    border-radius: 1rem 1rem 1rem 1rem;
     filter: drop-shadow(1px 1px 1px);
     margin-bottom: 10px;
 }
@@ -169,8 +175,6 @@ a {
 
 .cardeventos-eventos img {
     border-radius: 1rem;
-    color: #eee;
-    filter: drop-shadow(0px 0px 4px);
 }
 
 .cardeventos-eventos h6 {
@@ -180,43 +184,61 @@ a {
 
 
 .cardeventos-eventos iframe {
-    width: 300px;
+    width: 250px;
     height: 200px;
-    margin-top: 10px;
+    margin-top: 5px;
     border-radius: 1rem;
-    margin-bottom: 50px;
 }
 
 .eventos-proximos {
     border: 10px solid #00a85a;
-    margin: 10px;
-    border-radius: 5rem;
+    margin: 0px;
+    border-radius: 5rem 5rem 0rem 0rem;
     background-color: #076338;
 }
 
 .eventos-proximos h2 {
     background-color: #00a85a;
     color: #eee;
-    margin-top: -5px;
-    margin-left: 35%;
-    margin-right: 35%;
     padding: 5px;
     border-radius: 5rem;
 }
 
-.eventos-passados {
-    border: 10px solid #ec3237;
-    margin: 10px;
-    border-radius: 5rem;
-    background-color: #861c1f;
-}
-
-.eventos-passados h2 {
-    background-color: #ec3237;
+.cardeventos-eventos h4 {
+    background-color: #ed3237;
+    position: relative;
     color: #eee;
-    margin-top: -5px;
-    margin-left: 35%;
-    margin-right: 35%;
-    padding: 5px;
-    border-radius: 5rem;
+    font-size: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 5rem 5rem 0rem 0rem;
+    margin-bottom: -5px;
+    margin-top: 5px;
+}
+
+
+/* Dias Especiais */
+.teia-de-aranha {
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.5;
+    max-height: max-content;
+    width: 100%;
+    height: 98%;
+}
+.morcego {
+    position: absolute;
+    width: 10%;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1;
+}
+.caveira {
+    position: absolute;
+    width: 10%;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1;
 }
