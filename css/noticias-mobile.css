@@ -1,0 +1,63 @@
+#menuultimasnoticias {
+    display: block;
+}
+
+.ultimas {
+    margin: 10px;
+    height: 990px;
+    display: block;
+}
+
+.ultimas img {
+    position: absolute;
+    height: 250px;
+}
+
+.ultimas p {
+    margin-top: 0;
+    margin-left: 60%;  
+    max-height: 50%;
+    padding-top: 5%;
+}
+
+.tituloeartigo {
+    margin-left: 3%;
+    margin-right: 1%;
+    margin-top: 40%;
+}
+
+.verevento {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 57%;
+}
+
+.allnotices {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.noticia1 {
+    display: block;
+}
+
+.noticia1 img {
+    position: absolute;
+}
+
+.noticia1 p {
+    padding-top: 10%;
+    margin-left: 65%;
+    display: block;
+}
+
+.tituloall {
+    margin-left: 3%;
+    margin-top: 25%;
+}
+
+.tituloall h6{
+    font-size: 19px;
+    margin-left: 0;
+}
